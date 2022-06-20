@@ -1,0 +1,15 @@
+Administrator@FERDOUSH MINGW64 /c/laragon/www/ContractApp
+$  php artisan db:seed --class=CompaniesTableSeeder
+Database seeding completed successfully.
+
+Administrator@FERDOUSH MINGW64 /c/laragon/www/ContractApp
+$  php artisan db:seed --class=CompaniesTableSeeder
+Database seeding completed successfully.
+
+Administrator@FERDOUSH MINGW64 /c/laragon/www/ContractApp
+
+Administrator@FERDOUSH MINGW64 /c/laragon/www/ContractApp
+$  php artisan db:seed --class=CompaniesTableSeeder
+
+$  php artisan make:seeder CompaniesTableSeeder
+Seeder created successfully.
