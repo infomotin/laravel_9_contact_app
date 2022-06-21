@@ -5,6 +5,8 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Faker\Factory as Faker;
+// use Illuminate\Support\Facades\DB
+use DB;
 
 class ContactsTableSeeder extends Seeder
 {
@@ -16,7 +18,7 @@ class ContactsTableSeeder extends Seeder
     public function run()
     {
         // first get table and tranket is using DB 
-        $table = DB::table('contacts');
+        DB::table('contacts')->truncate();
         // then insert data
         $contacts = [];
         $faker = Faker::create();
